@@ -1,0 +1,12 @@
+<html ng-app="myapp">
+<body ng-controller="ctrl">
+<h1 ng-bind="message"></h1>
+<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+<script type="text/javascript">
+var app=angular.module("myapp",[]);
+app.controller("ctrl",function($scope){
+	$scope.message="welcome to node integration....!";
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+	"name": "node",
+	"dependencies": {
+		"angular": "latest"
+	}
+}
